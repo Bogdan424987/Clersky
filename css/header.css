@@ -2,6 +2,9 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #163A24;
+    position: fixed;
+    width: 100%;
+    height: 102px;
 }
 
 header .container {
@@ -12,10 +15,6 @@ header .container {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-
-
-
-
 }
 
 .header_nav {
@@ -25,17 +24,16 @@ header .container {
     /* margin-top: 35.5px;
     margin-bottom: 35.5px; */
     position: relative;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
 
 }
 .header_nav li:nth-child(1):hover .header-nav--submenu{
-    display: block;
     opacity: 1;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
 
 }
 
-.header-nav--submenu--item {
+.header-nav--submenu--item  a{
     background-color: green;
     color: white;
     padding: 5px 10px;
@@ -46,12 +44,12 @@ header .container {
     top: 40px;
     position: absolute;
     opacity: 0;
-    display: none;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 .header_nav--item,
-.header_nav--btn {
+.header_nav--btn,
+.header-nav--submenu--item {
     font-family: Noto Sans;
     font-size: 16px;
     font-weight: 400;

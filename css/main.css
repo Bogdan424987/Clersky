@@ -388,7 +388,26 @@
 .main_seventh--cards {
   display: flex;
   justify-content: center;
-  gap: 195px;
+  gap: 185px;
+  position: relative;
+}
+
+.first_arrow{
+  position: absolute;
+  top: 30%;
+  left: 290PX;
+}
+
+.second_arrow{
+  position: absolute;
+  top: 30%;
+  left: 728px;
+}
+
+.ellipse_image{
+  position: absolute;
+  left: 868px;
+  top: -37px;
 }
 
 .main_seventh--card {
